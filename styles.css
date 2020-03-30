@@ -75,3 +75,24 @@ h5 {
 
 /* Header End */
 
+/* Intro Section */
+.intro-section {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url("/img/tilte_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro_section_advertisement {
+    padding-top: 2rem;
+    text-align: center;
+
+}
+/* Intro Section End */
