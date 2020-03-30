@@ -32,3 +32,46 @@ h5 {
   font-size: 2.8rem;
 }
 /* Global Styles End */
+
+/* Header */
+.header {
+  background-color: #131c27;
+}
+
+/* Navigation */
+.header_nav {
+    display: flex;
+    min-height: 10vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.nav_logo {
+    color: #ffffff;
+    flex: 3 1 40rem;
+    align-self: center;
+}
+
+/* Menu */
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 40rem;
+}
+
+.menu_item {
+    list-style: none;
+}
+
+.item_link {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Menu End */
+
+/* Navigation End */
+
+/* Header End */
+
