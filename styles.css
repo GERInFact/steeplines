@@ -99,8 +99,12 @@ h5 {
 }
 
 .intro_section_advertisement {
-    padding-top: 2rem;
+    margin-top: 3rem;
     text-align: center;
 
+}
+
+.intro-section_booking {
+    margin-top: 3rem;
 }
 /* Intro Section End */
