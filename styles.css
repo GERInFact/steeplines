@@ -56,6 +56,7 @@ h5 {
 /* Navigation */
 .header_nav {
   display: flex;
+  flex-wrap: wrap;
   min-height: 10vh;
   width: 90%;
   margin: 0 auto;
@@ -114,3 +115,18 @@ h5 {
   margin-top: 3rem;
 }
 /* Intro Section End */
+
+
+/* Media Queries */
+@media screen and (max-width:888px) {
+    .nav_logo {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width:500px) {
+    html {
+        font-size: 40%;
+    }
+}
+/* Media Queries End */
