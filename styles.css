@@ -11,6 +11,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
   font-size: 2.6rem;
 }
@@ -34,11 +38,11 @@ h5 {
 /* Global Styles End */
 
 .button {
-    padding: 2rem 6rem;
-    border: none;
-    background-color: #4c6e97;
-    color: white;
-    cursor: pointer;
+  padding: 2rem 6rem;
+  border: none;
+  background-color: #4c6e97;
+  color: white;
+  cursor: pointer;
 }
 
 /* Header */
@@ -48,34 +52,34 @@ h5 {
 
 /* Navigation */
 .header_nav {
-    display: flex;
-    min-height: 10vh;
-    width: 90%;
-    margin: 0 auto;
-    padding: 2rem 0;
+  display: flex;
+  min-height: 10vh;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .nav_logo {
-    color: #ffffff;
-    flex: 3 1 40rem;
-    align-self: center;
+  color: #ffffff;
+  flex: 3 1 40rem;
+  align-self: center;
 }
 
 /* Menu */
 .nav_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1 1 40rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 40rem;
 }
 
 .menu_item {
-    list-style: none;
+  list-style: none;
 }
 
 .item_link {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 /* Menu End */
 
@@ -85,26 +89,25 @@ h5 {
 
 /* Intro Section */
 .intro-section {
-    min-height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url("/img/tilte_image.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: #ffffff;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+    url("/img/tilte_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro_section_advertisement {
-    margin-top: 3rem;
-    text-align: center;
-
+  margin-top: 3rem;
+  text-align: center;
 }
 
 .intro-section_booking {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 /* Intro Section End */
