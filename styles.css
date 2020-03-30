@@ -33,6 +33,14 @@ h5 {
 }
 /* Global Styles End */
 
+.button {
+    padding: 2rem 6rem;
+    border: none;
+    background-color: #4c6e97;
+    color: white;
+    cursor: pointer;
+}
+
 /* Header */
 .header {
   background-color: #131c27;
