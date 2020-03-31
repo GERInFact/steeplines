@@ -197,7 +197,7 @@ h5 {
     transform: translate(0, 0);
   }
   to {
-    transform: translate(-60px, 15px);
+    transform: translate(-4rem, .5rem);
   }
 }
 
