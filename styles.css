@@ -162,6 +162,14 @@ h5 {
   right: 0;
   width: 100%;
 }
+
+.moving-cloud {
+  animation: cloud-movement 4.5s ease-out infinite alternate;
+  opacity: .3;
+}
+.static-cloud {
+  z-index: 1;
+}
 /* Location Section End */
 
 /* Media Queries */
@@ -177,4 +185,16 @@ h5 {
     }
 }
 /* Media Queries End */
+
+/* Animation */
+@keyframes cloud-movement {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-60px, 15px);
+  }
+}
+
+/* Animation End */
 
