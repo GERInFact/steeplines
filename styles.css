@@ -263,9 +263,13 @@ h5 {
   text-align: center;
 }
 
+.input-container_label {
+  margin-right: 3rem;
+}
+
 .input-container_input {
-  margin: 0 3rem;
   padding: 1rem 3rem;
+  max-width: 90%;
 }
 
 .form_submit {
@@ -275,6 +279,33 @@ h5 {
 }
 /* Contact Section End */
 
+/* Footer */
+.footer {
+  background-color: #131c27;
+  color: #ffffff;
+}
+
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  min-height: 10vh;
+  margin: 0 auto;
+}
+
+.wrapper_title {
+  flex: 5 1 40rem;
+  font-family: "Pattaya", sans-serif;
+}
+
+.wrapper_social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 40rem;
+  list-style: none;
+}
+/* Footer End */
 
 /* Media Queries */
 @media screen and (max-width: 888px) {
