@@ -17,7 +17,7 @@ body {
 
 h1 {
   font-size: 2.6rem;
-  font-family: 'Pattaya', sans-serif;
+  font-family: "Pattaya", sans-serif;
   font-weight: 400;
 }
 a,
@@ -46,10 +46,11 @@ h5 {
   background-color: #4c6e97;
   color: white;
   cursor: pointer;
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   background-color: #27394e;
 }
 
@@ -112,7 +113,7 @@ h5 {
 }
 
 .intro-section_slogan {
-  text-shadow: 3px 3px 5px  #000000;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 .intro_section_advertisement {
@@ -131,7 +132,8 @@ h5 {
   align-items: center;
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(rgba(0,0,0,.6),transparent), url("/img/zermatt.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
+    url("/img/zermatt.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -146,9 +148,9 @@ h5 {
 
 .location-section .header_slogan {
   display: inline;
-  padding-bottom: .5rem;
-  border-bottom: .5rem solid #ffffff;
-  text-shadow: 3px 3px 5px  #000000;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5rem solid #ffffff;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 .location-section .header_description {
@@ -172,7 +174,7 @@ h5 {
 
 .moving-cloud-one {
   animation: cloud-movement 7s ease-out infinite alternate;
-  opacity: .3;
+  opacity: 0.3;
   top: 4rem;
 }
 .moving-cloud-two {
@@ -181,17 +183,68 @@ h5 {
 }
 /* Location Section End */
 
-/* Media Queries */
-@media screen and (max-width:888px) {
-    .nav_logo {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
+/* Benefit Section */
+.benefit-section {
+  min-height: 100vh;
 }
-@media screen and (max-width:500px) {
-    html {
-        font-size: 40%;
-    }
+
+.benefit-section_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #343c44;
+  color: #ffffff;
+  text-align: center;
+  min-height: 30vh;
+}
+
+.benefit-section .header_description {
+  margin-top: 1rem;
+}
+
+.benefit-section_cards {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 90%;
+  min-height: 70vh;
+  margin: 0 auto;
+}
+
+.cards_card {
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 3rem;
+  text-align: center;
+  box-shadow: 0 10px 15px 3px rgba(0, 0, 0, 0.3) ;
+}
+
+.card_icon-container {
+  background-color: #333c44;
+}
+
+.icon-container_icon {
+  height: 100px;
+  padding: 2rem 0;
+}
+
+.card_title {
+  margin: 4rem 0 6rem 0;
+}
+
+/* Benefit Section End */
+
+/* Media Queries */
+@media screen and (max-width: 888px) {
+  .nav_logo {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
 }
 /* Media Queries End */
 
@@ -206,4 +259,3 @@ h5 {
 }
 
 /* Animation End */
-
