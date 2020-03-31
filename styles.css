@@ -106,6 +106,10 @@ h5 {
   justify-content: center;
 }
 
+.intro-section_slogan {
+  text-shadow: 3px 3px 5px  #000000;
+}
+
 .intro_section_advertisement {
   margin-top: 3rem;
   text-align: center;
@@ -117,13 +121,33 @@ h5 {
 /* Intro Section End */
 
 /* Location Section */
-/* Benefit Section */
 .location-section {
+  display: flex;
+  align-items: center;
   min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.6),transparent), url("/img/zermatt.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
 }
-/* Benefit Section End */
-/* Location Section End */
 
+.location-section_header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header_slogan {
+  display: inline;
+  padding-bottom: .5rem;
+  border-bottom: .5rem solid #ffffff;
+  text-shadow: 3px 3px 5px  #000000;
+}
+
+.header_description {
+  margin-top: 4rem;
+}
+/* Location Section End */
 
 /* Media Queries */
 @media screen and (max-width:888px) {
