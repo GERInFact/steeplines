@@ -46,6 +46,11 @@ h5 {
   background-color: #4c6e97;
   color: white;
   cursor: pointer;
+  transition: all .3s ease-out;
+}
+
+.button:hover, .button:focus {
+  background-color: #27394e;
 }
 
 /* Header */
