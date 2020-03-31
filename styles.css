@@ -144,14 +144,14 @@ h5 {
   margin: 0 auto;
 }
 
-.header_slogan {
+.location-section .header_slogan {
   display: inline;
   padding-bottom: .5rem;
   border-bottom: .5rem solid #ffffff;
   text-shadow: 3px 3px 5px  #000000;
 }
 
-.header_description {
+.location-section .header_description {
   margin-top: 4rem;
 }
 
