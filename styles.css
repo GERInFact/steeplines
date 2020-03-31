@@ -173,12 +173,12 @@ h5 {
 }
 
 .moving-cloud-one {
-  animation: cloud-movement 7s ease-out infinite alternate;
+  animation: cloud-movement 3.5s ease-out infinite alternate;
   opacity: 0.3;
   top: 4rem;
 }
 .moving-cloud-two {
-  animation: cloud-movement 14s ease-out infinite alternate;
+  animation: cloud-movement 7s ease-out infinite alternate;
   z-index: 1;
 }
 /* Location Section End */
