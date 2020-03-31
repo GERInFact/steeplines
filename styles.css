@@ -169,12 +169,12 @@ h5 {
   width: 100%;
 }
 
-.moving-cloud {
+.moving-cloud-one {
   animation: cloud-movement 7s ease-out infinite alternate;
   opacity: .3;
   top: 4rem;
 }
-.static-cloud {
+.moving-cloud-two {
   animation: cloud-movement 14s ease-out infinite alternate;
   z-index: 1;
 }
