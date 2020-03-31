@@ -172,7 +172,7 @@ h5 {
 .moving-cloud {
   animation: cloud-movement 7s ease-out infinite alternate;
   opacity: .3;
-  top: 10rem;
+  top: 4rem;
 }
 .static-cloud {
   animation: cloud-movement 14s ease-out infinite alternate;
@@ -197,7 +197,7 @@ h5 {
 /* Animation */
 @keyframes cloud-movement {
   from {
-    transform: translate(15rem, -5rem);
+    transform: translate(10%, -10%);
   }
   to {
     transform: translate(0, 0);
