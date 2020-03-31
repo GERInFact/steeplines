@@ -226,13 +226,55 @@ h5 {
 .icon-container_icon {
   height: 100px;
   padding: 2rem 0;
+  pointer-events: none;
 }
 
 .card_title {
   margin: 4rem 0 6rem 0;
 }
-
 /* Benefit Section End */
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/img/winter.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.contact-section_form-wrapper {
+  width: 60%;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header_title {
+  margin: 4rem;
+  text-align: center;
+}
+
+.form_input-container {
+  padding: 3rem;
+  text-align: center;
+}
+
+.input-container_input {
+  margin: 0 3rem;
+  padding: 1rem 3rem;
+}
+
+.form_submit {
+  margin-top: 8rem;
+  width: 100%;
+  border-radius: 0 0 25px 25px;
+}
+/* Contact Section End */
+
 
 /* Media Queries */
 @media screen and (max-width: 888px) {
