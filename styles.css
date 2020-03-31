@@ -104,7 +104,7 @@ h5 {
 .intro-section {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
-    url("/img/tilte_image.jpg");
+    url("./img/tilte_image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -136,7 +136,7 @@ h5 {
   position: relative;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
-    url("/img/zermatt.jpg");
+    url("./img/zermatt.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -243,7 +243,7 @@ h5 {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("/img/winter.jpg");
+  background: url("./img/winter.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
