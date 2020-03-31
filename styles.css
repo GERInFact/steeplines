@@ -124,6 +124,7 @@ h5 {
 .location-section {
   display: flex;
   align-items: center;
+  position: relative;
   min-height: 100vh;
   background: linear-gradient(rgba(0,0,0,.6),transparent), url("/img/zermatt.jpg");
   background-repeat: no-repeat;
@@ -147,6 +148,20 @@ h5 {
 .header_description {
   margin-top: 4rem;
 }
+
+.location-section_image-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+
+.image-container_cloud {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
 /* Location Section End */
 
 /* Media Queries */
@@ -162,3 +177,4 @@ h5 {
     }
 }
 /* Media Queries End */
+
